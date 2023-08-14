@@ -43,32 +43,41 @@
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         document.getElementById("weeks").innerHTML = weeks;
+        document.getElementById("weeks-text").innerHTML = "Semanas";
+
         document.getElementById("days").innerHTML = days;
+        document.getElementById("days-text").innerHTML = "Dias";
+
         document.getElementById("hours").innerHTML = hours;
+        document.getElementById("hours-text").innerHTML = "Horas";
+
         document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("minutes-text").innerHTML = "Minutos";
+
         document.getElementById("seconds").innerHTML = seconds;
+        document.getElementById("seconds-text").innerHTML = "Segundos";
 
     }, 1000);
   </script>
 </body>
     <div>
         <h1 id="weeks"></h1>
-        <h3>Semanas</h3>
+        <h3 id="weeks-text"></h3>
     </div>
     <div>
         <h1 id="days"></h1>
-        <h3>Dias</h3>
+        <h3 id="days-text"></h3>
     </div>
     <div>
         <h1 id="hours"></h1>
-        <h3>Horas</h3>
+        <h3 id="hours-text"></h3>
     </div>
     <div>
         <h1 id="minutes"></h1>
-        <h3>Minutos</h3>
+        <h3 id="minutes-text"></h3>
     </div>
     <div>
         <h1 id="seconds"></h1>
-        <h3>Segundos</h3>
+        <h3 id="seconds-text"></h3>
     </div>
 </html>
